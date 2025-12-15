@@ -8,27 +8,28 @@ import {
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
-
+import image from "../assets/profile-photo.jpg";
 const skills = [
   "React",
-  "Next.js",
+  "Angular.js",
   "TypeScript",
-  "Node.js",
-  "GraphQL",
+  "php/Laravel",
+  "Vue3",
   "PostgreSQL",
   "MongoDB",
-  "Redis",
+  "Javascript/jquery",
   "Docker",
-  "AWS",
+  "java/springboot",
   "Vercel",
   "Tailwind CSS",
-  "Prisma",
-  "Jest",
-  "Cypress",
-  "Figma",
+  "Bootstrap CSS",
+  "Microservice level 1 and leavel 2",
+  "c/c++",
+  "c#",
   "Git",
-  "GitHub Actions",
+  "GitHub",
 ];
+
 
 export const Hero = () => {
   return (
@@ -69,7 +70,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Software Engineer
               </span>
             </div>
 
@@ -84,10 +85,11 @@ export const Hero = () => {
                   precision.
                 </span>
               </h1>
-              <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Pedro Machado — a software engineer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+              <p className="text-sm text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
+              Hi, I’m Nam Tola, a Full-Stack Software Engineer specializing in frontend and backend development.
+               I build scalable, high-performance web applications using React, Angular, Vue 3, TypeScript, and modern JavaScript on the frontend, 
+               and Java Spring Boot (Level 1 & 2 microservices) and PHP Laravel on the backend. I have experience designing RESTful APIs, building 
+               microservice architectures, and working with MySQL and NoSQL databases, delivering reliable, maintainable, and user-focused software solutions end to end
               </p>
             </div>
 
@@ -106,7 +108,7 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "#" },
+                { icon: Github, href: "https://github.com/Tola-Nam" },
                 { icon: Linkedin, href: "#" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
@@ -132,8 +134,8 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
-                  alt="Pedro Machado"
+                  src={image}
+                  alt="Nam Tola"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
@@ -148,7 +150,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">1+</div>
                   <div className="text-xs text-muted-foreground">
                     Years Exp.
                   </div>

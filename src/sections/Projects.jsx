@@ -6,36 +6,36 @@ const projects = [
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
     image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
+    tags: ["Vue3", "Typescript", "Php/Laravel","Mysql"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Tola-Nam",
   },
   {
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
+    image: "../src/assets/dashboard.png",
+    tags: ["Angular.js", "Daisy", "MongoDb", "Tailwind"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Tola-Nam",
   },
   {
     title: "AI Writing Assistant",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
+    image: "../src/assets/projects.png",
+    tags: ["React", "OpenAI", "java", "java spring data"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Tola-Nam",
   },
   {
     title: "Project Management Tool",
     description:
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    image: "../src/assets/Screenshot From 2025-12-16 00-00-31.png",
+    tags: ["Vue.js", "Tailwind CSS", "Postgre", "spring"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Tola-Nam",
   },
 ];
 
@@ -92,7 +92,7 @@ export const Projects = () => {
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
-                  <a
+                  <a target="blank"
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                   >

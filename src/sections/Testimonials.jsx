@@ -28,11 +28,11 @@ const testimonials = [
   },
   {
     quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
+      "Enjoy off-road driving that challenges skill, focus, and endurance",
+    author: "History",
+    role: "Khmer History",
     avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "https://imgs.search.brave.com/2TwLHUJKrOkbylCgoCDYd5M_nA6znt3Qv7DY0TOtqXI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTE1/MTIzNzQwL3Bob3Rv/L2EtY2FtYm9kaWFu/LWtobWVyLXJvdWdl/LXNvbGRpZXItaXMt/c2Vlbi1oZXJlLWNh/cnJ5aW5nLWFuLXIt/cC1nLXJvY2tldC1h/cy1oZS13YWxrcy1h/bG9uZy10aGUuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTI2/bDBGa2RXWUxaZndW/eGQ1N2psdGVHdWJP/TVFrQ0dvT0hNZ0pr/dU9pcG89",
   },
 ];
 
