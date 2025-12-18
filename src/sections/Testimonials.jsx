@@ -4,6 +4,14 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
+      "Led by Pol Pot, the Khmer Rouge imposed an extreme communist system that forced people out of cities, abolished money, and destroyed schools and religion. Nearly two million Cambodians died from execution, starvation, disease, and forced labor, making it one of the worst genocides in modern history.",
+    author: "History",
+    role: "Khmer History",
+    avatar:
+      "https://imgs.search.brave.com/2TwLHUJKrOkbylCgoCDYd5M_nA6znt3Qv7DY0TOtqXI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTE1/MTIzNzQwL3Bob3Rv/L2EtY2FtYm9kaWFu/LWtobWVyLXJvdWdl/LXNvbGRpZXItaXMt/c2Vlbi1oZXJlLWNh/cnJ5aW5nLWFuLXIt/cC1nLXJvY2tldC1h/cy1oZS13YWxrcy1h/bG9uZy10aGUuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTI2/bDBGa2RXWUxaZndW/eGQ1N2psdGVHdWJP/TVFrQ0dvT0hNZ0pr/dU9pcG89",
+  },
+  {
+    quote:
       "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
     author: "Sarah Chen",
     role: "CTO, Tech Innovators Inc.",
@@ -26,14 +34,7 @@ const testimonials = [
     avatar:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
   },
-  {
-    quote:
-      "Enjoy off-road driving that challenges skill, focus, and endurance",
-    author: "History",
-    role: "Khmer History",
-    avatar:
-      "https://imgs.search.brave.com/2TwLHUJKrOkbylCgoCDYd5M_nA6znt3Qv7DY0TOtqXI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTE1/MTIzNzQwL3Bob3Rv/L2EtY2FtYm9kaWFu/LWtobWVyLXJvdWdl/LXNvbGRpZXItaXMt/c2Vlbi1oZXJlLWNh/cnJ5aW5nLWFuLXIt/cC1nLXJvY2tldC1h/cy1oZS13YWxrcy1h/bG9uZy10aGUuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTI2/bDBGa2RXWUxaZndW/eGQ1N2psdGVHdWJP/TVFrQ0dvT0hNZ0pr/dU9pcG89",
-  },
+  
 ];
 
 export const Testimonials = () => {

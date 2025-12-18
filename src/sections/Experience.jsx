@@ -5,7 +5,7 @@ const experiences = [
     company: "University",
     description:
       "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Angular.js", "MongoDb","Springboot","Laravel","cShap"],
+    technologies: ["React", "Vue3","TypeScript", "Angular.js", "MongoDb","Mysql","PostgreSql","cShap","Springboot","Laravel", ],
     current: true,
   },
   {
@@ -14,11 +14,11 @@ const experiences = [
     company: "At university",
     description:
       "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["Vue", "Pinea", "java-swing", "javascript","Networking"],
+    technologies: ["Vue", "Pinea", "java-swing", "javascript","Networking","php"],
     current: false,
   },
   {
-    period: "2013 — 2024",
+    period: "2023 — 2024",
     role: "Student",
     company: "In university",
     description:

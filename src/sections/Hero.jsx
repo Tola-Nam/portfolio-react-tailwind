@@ -134,10 +134,16 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src={image}
+                  src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/a5729755c0253405a65165e84516e40c~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=46b159d5&x-expires=1766206800&x-signature=ORB9yZIID%2FeMJvtK%2BLJWqL06VUs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
                   alt="Nam Tola"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
+
+                {/* <img
+                  src={image}
+                  alt="Nam Tola"
+                  className="w-full aspect-[4/5] object-cover rounded-2xl"
+                /> */}
 
                 {/* Floating Badge */}
                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">

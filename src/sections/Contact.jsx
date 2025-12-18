@@ -15,7 +15,7 @@ const contactInfo = [
     icon: Mail,
     label: "Email",
     value: "namtola4444@gmail.com",
-    href: "namtola4444@gmail.com",
+    href: "mailto:namtola4444@gmail.com",
   },
   {
     icon: Phone,
@@ -27,7 +27,7 @@ const contactInfo = [
     icon: MapPin,
     label: "Location",
     value: "Sen sok , Cambodia",
-    href: "#",
+    href: "https://maps.app.goo.gl/Jo1GsJkuaFvuXvHu8?g_st=atm",
   },
 ];
 
