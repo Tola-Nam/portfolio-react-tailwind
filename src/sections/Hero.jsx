@@ -123,7 +123,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/06329c51be31a7532ee903fdfb690120~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=260bc415&x-expires=1767866400&x-signature=Ag6ol7cxLlzrLHsQDobMNKyiTiM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+                  src="https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/565614480_1512552026753518_227948767385759816_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE7u4_iIiS8yADniRDvywP6tmo8HYWK_I-2ajwdhYr8jyiVu-XFkQ_aufQcnaDZAK0NoXO3D0vVMyX8PrruwD-O&_nc_ohc=hn9PAc0vungQ7kNvwHoYMol&_nc_oc=Adnns58H1q5_XrabLAJpa2Gt1aTUgFFeswpKHxkY-CP48muJ1t_EKOXsy1TpX84RyEI&_nc_zt=23&_nc_ht=scontent.fpnh11-1.fna&_nc_gid=W0j1QFgIdq49gXPViZPxfQ&oh=00_AfpKmAG1AABFZZse70uNjeouwAlXRWNaRynw9s1vDDGPpw&oe=6966B12A"
                   alt="Nam Tola"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
