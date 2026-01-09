@@ -134,7 +134,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/06329c51be31a7532ee903fdfb690120~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=260bc415&x-expires=1767866400&x-signature=Ag6ol7cxLlzrLHsQDobMNKyiTiM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
+                  src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/06329c51be31a7532ee903fdfb690120~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=3b274816&x-expires=1768125600&x-signature=bx0GNcPkHCQ6o2b0rHIyA5%2ByB0k%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2"
                   alt="Nam Tola"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
