@@ -11,19 +11,10 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import image from "../assets/profile-photo.jpg";
 const skills = [
   "React",
-  "Angular.js",
-  "TypeScript",
-  "php/Laravel",
-  "Vue3",
-  "PostgreSQL",
-  "MongoDB",
   "Javascript/jquery",
-  "Docker",
-  "java/springboot",
-  "Vercel",
-  "Tailwind CSS",
+  "Microsoft Access",
+  "java/swing",
   "Bootstrap CSS",
-  "Microservice level 1 and leavel 2",
   "c/c++",
   "c#",
   "Git",
@@ -86,10 +77,8 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-sm text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-              Hi, I’m Nam Tola, a Full-Stack Software Engineer specializing in frontend and backend development.
-               I build scalable, high-performance web applications using React, Angular, Vue 3, TypeScript, and modern JavaScript on the frontend, 
-               and Java Spring Boot (Level 1 & 2 microservices) and PHP Laravel on the backend. I have experience designing RESTful APIs, building 
-               microservice architectures, and working with MySQL and NoSQL databases, delivering reliable, maintainable, and user-focused software solutions end to end
+              Hi, I’m Vong Sreynich, a Front End Software Engineer specializing in frontend deverloper.
+               I build scalable, high-performance web applications using React, javascript , Boostrap.
               </p>
             </div>
 
